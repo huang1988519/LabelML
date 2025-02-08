@@ -1,7 +1,7 @@
 # LabelML
 Software specifically for object annotation for macOS’s CreateML
 
-# Object Detection on iOS with Create ML
+# Object Detection on iOS/MacOS with Create ML
 
 Recently, I’ve been working on implementing object detection functionality on iOS, specifically to train a model for fuel dispenser information extraction. Since it’s an iOS project, my first choice was to use **Create ML**, which is built into macOS, to train the model. However, after looking at several mainstream data annotation tools, I found that most don’t directly support Create ML. After refining my search keywords multiple times, I discovered the native macOS app [LabelML](https://apps.apple.com/cn/app/labelml/id6478145989?mt=12), which directly supports Create ML training datasets.
 
